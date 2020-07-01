@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Font Family-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!--Title-->
+    <title>Yoga Silvana Ledesma</title>
+</head>
+
+<body class="main-background mh-100">
+
+    <!--Barra de Navegacion-->
+    <nav class="navbar bg-navbar">
+      <a href="index.html">
+          <img src="images/icono.png" alt="" class="navbar-brand"></a>
+        <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html" class="btn btn-info btn-lg">
+                  <span class="iconify" data-icon="ant-design:home-twotone" data-inline="false"></span> Inicio
+              </a>
+            </li>
+        </ul>
+    </nav>
+    <!--Fin Barra de Navegacion-->
+
+    <!--Inicio formulario registro-->
+    <div class="container container-fluid mb-5 pb-5">
+        <form>
+            <div class="text-center">
+                <img src="images/registrologo.png" alt="" class="img-fluid">
+            </div>
+            <div class="form-group">
+                <label>
+                    <h4>Nombre y apellido:</h4>
+                </label>
+                <input class="form-control" type="text" name="fullname" required placeholder="Ingrese su nombre y apellido"/>
+            </div>
+            <div class="form-group">
+                <label>
+                    <h4>Correo electronico:</h4>
+                </label>
+                <input class="form-control" type="email" name="email" required placeholder="Ingrese su correo electronico"/>
+            </div>
+            <div class="form-group">
+                <label>
+                    <h4>Contraseña:</h4>
+                </label>
+                <input class="form-control" type="password" name="password" required placeholder="Ingrese una contraseña"/>
+            </div>
+            <div class="form-group">
+                <label>
+                    <h4>Género:</h4>
+                </label><br/>
+                <label><input type="radio" name="gender" required value="Male" checked /> Masculino</label>
+                <label><input type="radio" name="gender" required value="Female" /> Femenino</label>
+                <label><input type="radio" name="gender" required value="Other" /> Otro</label>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary btn-block" type="submit" value="Crear Cuenta"/>
+            </div>
+        </form>
+    </div>
+    <!--Fin formulario registro-->
+
+    <div class="p-5 m-5"></div>
+    <!--Inicio Footer-->
+    <footer>
+        <div class="d-none d-xl-block">
+            <div class="navbar list-unstyled bg-navbar">
+                <h4 class="">¡Conoce más!</h4>
+                <div class="d-flex justify-content-end">
+                    <h4 class="p-2"><a href="mailto:sylvanasylvana01@gmail.com?Subject=Interesado%20en%20el%20curso">Contacto</a></h4>
+                    <a target="_blank" href="https://wa.me/543586010467?text=Hola%20necesito%20información%20sobre%20las%20clases%20de%20Yoga">
+                        <span class="p-1 iconify" data-icon="logos-whatsapp" data-inline="false" data-width="48" data-height="48"></span>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/YOGA-Silvana-Ledesma-724361931008065">
+                        <span class="p-1 iconify" data-icon="logos:facebook" data-inline="false" data-width="36" data-height="48"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Inicio footer responsive web celular-->
+    <footer>
+        <div class="d-xl-none navbar list-unstyled bg-navbar">
+            <h4 class="">¡Conoce más!</h4>
+            <h4 class=""><a href="mailto:sylvanasylvana01@gmail.com?Subject=Interesado%20en%20el%20curso">Contacto</a></h4>
+            <div class="d-flex justify-content-end">
+                <a target="_blank" href="https://wa.me/543586010467?text=Hola%20necesito%20información%20sobre%20las%20clases%20de%20Yoga">
+                    <span class="p-1 iconify" data-icon="logos-whatsapp" data-inline="false" data-width="48" data-height="48"></span>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/YOGA-Silvana-Ledesma-724361931008065">
+                    <span class="p-1 iconify" data-icon="logos:facebook" data-inline="false" data-width="36" data-height="48"></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer responsive-->
+    <!--Fin footer-->
+    <script src="script/jQuery.js"></script>
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+</html>

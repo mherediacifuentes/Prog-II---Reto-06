@@ -1,0 +1,20 @@
+.main-background{
+    background-image: url(../images/pexels-photo-1040473.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-navbar{
+    background: rgb(255, 239, 146);
+}
+
+html, body{
+    font-family: 'Courgette';
+  }
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
